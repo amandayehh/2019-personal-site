@@ -1,0 +1,7 @@
+.sketch-group {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 4em;
+  margin-left: 4vw;
+}

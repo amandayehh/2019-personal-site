@@ -1,0 +1,42 @@
+.project-line {
+  transform: translateY(-5px);
+}
+
+.category {
+  margin-top: 1em;
+  margin-bottom: 0.6em;
+}
+.name {
+  margin-bottom: 0.5em;
+}
+
+.backline {
+  position: relative;
+  background: linear-gradient(to left, transparent 50%, var(--accent) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.4s ease-in-out;
+}
+
+.project-content:hover img {
+  transition: 0.3s ease-in-out;
+  filter: opacity(70%);
+}
+
+.backline:hover {
+  background-position: left bottom;
+}
+
+.description {
+  margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 750px) {
+  .category {
+    margin-top: 0.6em;
+    margin-bottom: 0.5em;
+  }
+  .name {
+    margin-bottom: 0.4em;
+  }
+}

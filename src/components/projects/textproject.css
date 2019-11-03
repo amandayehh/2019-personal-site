@@ -1,0 +1,44 @@
+.text-project {
+  padding: 3em 1.5em;
+  margin: auto;
+  text-align: center;
+}
+
+.text-project .description {
+  margin-bottom: 1.2em;
+}
+
+.text-project img {
+  width: 60%;
+  height: auto;
+  margin-bottom: 2em;
+}
+
+.backline:hover {
+  background-position: left bottom;
+}
+
+.container-text-project:hover img {
+  transition: 0.3s ease-in-out;
+  filter: opacity(70%);
+}
+
+.text-project .link:hover {
+  color: var(--accent);
+  transition: 0.2s ease-in-out;
+}
+
+@media only screen and (max-width: 750px) {
+  .text-project img {
+    width: 40%;
+    margin-bottom: 1em;
+  }
+  .text-project .description {
+    margin-bottom: 0.7em;
+  }
+  .text-project {
+    padding: 3em 0em;
+    margin: auto;
+    text-align: center;
+  }
+}
