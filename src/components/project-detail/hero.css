@@ -8,6 +8,8 @@
   padding: 2em 4vw;
   width: 92vw;
   height: auto;
+  margin-right: 0;
+  padding-right: 0;
 }
 
 .hero-container .line {
@@ -82,7 +84,7 @@
   width: auto;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 900px) {
   .hero-content {
     flex-direction: column;
     margin-top: 2.2em;
@@ -102,7 +104,10 @@
     padding: 2em 4vw;
     width: 92vw;
     height: auto;
+    margin-right: 0;
+    padding-right: 0;
   }
+
   .hero-content {
     margin-bottom: 4em;
     padding-bottom: 0em;
