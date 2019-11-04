@@ -1,9 +1,9 @@
 :root {
   --dark: #27292d;
-  --med: #4d5053;
+  --med: #27292d;
   --light: #aab0ba;
   --vlite: #e7e7e7;
-  --accent: #ffe071;
+  --accent: #ffe24b;
   --secondary: #0085ff;
   --red: #fa6f43;
   --med-shadow: 0px 2px 16px rgba(0, 0, 0, 0.16);
@@ -35,6 +35,15 @@ a {
 html {
   overflow-x: hidden;
 }
+
+.large-text {
+  font-family: cirka;
+  font-weight: bold;
+  font-size: 6em;
+  color: var(--dark);
+  line-height: 100%;
+}
+
 .h1 {
   font-family: cirka;
   font-weight: bold;

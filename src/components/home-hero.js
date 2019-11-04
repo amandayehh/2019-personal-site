@@ -6,10 +6,11 @@ import ImgArrow from "../imgs/shared/arrow.png";
 export default props => (
   <Fade>
     <div className="home-hero">
-      <div className="content">
-        <div className="h1">
-          I’m a product designer and creative technologist building better
-          experiences on and off the web
+      <div className="content-main">
+        <div className="hi h1 light">Hey there! </div>
+        <div className="name h1">
+          I'm a product designer and creative technlogist building better
+          experiences on and off the web.{" "}
         </div>
       </div>
     </div>
